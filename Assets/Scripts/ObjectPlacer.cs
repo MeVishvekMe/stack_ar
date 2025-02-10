@@ -9,11 +9,14 @@ public class ObjectPlacer : MonoBehaviour {
     
     public GameObject[] objectPrefabs;
     private GameObject selectedObject;
+    public ARSession arSession;
     
     private ARRaycastManager raycastManager;
     private List<ARRaycastHit> hits = new List<ARRaycastHit>();
 
     void Start() {
+        isStackStarted = false;
+        arSession.Reset();
         raycastManager = GetComponent<ARRaycastManager>();
 
         if (raycastManager == null) {

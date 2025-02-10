@@ -237,6 +237,7 @@ MonoBehaviour:
   - {fileID: 1878415082157971380, guid: d246600a85b48444db659d7853854e75, type: 3}
   - {fileID: 1878415082157971380, guid: fbdd891622f872246b242b0195016574, type: 3}
   - {fileID: 1492650301941367389, guid: 59c6c69d7d382ce4692dcf5240bda62b, type: 3}
+  arSession: {fileID: 1655299726}
 --- !u!1 &552566584
 GameObject:
   m_ObjectHideFlags: 0
