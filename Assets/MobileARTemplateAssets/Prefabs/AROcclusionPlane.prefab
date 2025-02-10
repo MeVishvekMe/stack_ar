@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 1337561439930679046}
   - component: {fileID: 1337303928915544006}
   - component: {fileID: 2000989330670121048}
+  - component: {fileID: 3787184466800720417}
   m_Layer: 0
   m_Name: AROcclusionPlane
   m_TagString: SimulatedPlane
@@ -248,3 +249,15 @@ LineRenderer:
   m_UseWorldSpace: 0
   m_Loop: 1
   m_ApplyActiveColorSpace: 0
+--- !u!114 &3787184466800720417
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1374196765487540282}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 388fd7684a83bb644abab2aaf3d343ab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

@@ -6,6 +6,7 @@ TagManager:
   tags:
   - SimulatedPlane
   - SpawnedObject
+  - RootObject
   layers:
   - Default
   - TransparentFX
